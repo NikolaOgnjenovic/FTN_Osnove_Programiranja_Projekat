@@ -882,7 +882,7 @@ def checkin():
         prezime = input('Unesite prezime osobe koju prijavljujete na let\n')
 
     # Prođi kroz sve karte:
-    # 1) ako prodavac checkinuje: proveri da li je osoba putnik u karata, ako jeste dodaj je u rečnik karata za checkin
+    # 1) ako prodavac checkinuje: proveri da li je osoba putnik u karti, ako jeste dodaj je u rečnik karata za checkin
     # 2) ako korisnik checkinuje: proveri da li je kupac karte, ako jeste dodaj je u rečnik karata za checkin
     karte_za_checkin = {}
     for karta in sve_karte.values():
